@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite 2" parallel="tests" thread-count="2">
+    <test name="paralel test 2">
+        <classes>
+            <class name="com.techproed.smoketest.Day_19_NegativeTest"/>
+            <class name="com.techproed.tests.Day17_WebTables"/>
+        </classes>
+    </test>
+</suite>
